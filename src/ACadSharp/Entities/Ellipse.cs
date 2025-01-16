@@ -96,7 +96,10 @@ namespace ACadSharp.Entities
 		/// <summary>
 		/// Length of the minor axis.
 		/// </summary>
-		public double MinorAxis { get { return this.MajorAxis * this.RadiusRatio; } }
+		public double MinorAxis
+		{
+			get { return this.MajorAxis * this.RadiusRatio; }
+		}
 
 		/// <summary>
 		/// Flag that indicates weather this ellipse is closed or not.

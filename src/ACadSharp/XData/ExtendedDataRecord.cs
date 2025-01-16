@@ -7,6 +7,11 @@
 			get { return this._code; }
 		}
 
+		public object Value
+		{
+			get { return this._value; }
+		}
+
 		private DxfCode _code;
 
 		protected object _value;
